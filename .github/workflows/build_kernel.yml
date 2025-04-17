@@ -20,7 +20,7 @@ jobs:
       - name: pull kernel and complier
         run: |
           echo "拉取源码和编译器"
-          git clone --depth=1 https://github.com/Jasmine-Wayne-4-19/android_kernel_xiaomi_sdm660_4.19.git -b 11 kernel_src  #修改内核源码地址和分支名称
+          git clone --depth=1 https://github.com/realme-kernel-opensource/realme_GTneo6_GTneo6SE-AndroidU-kernel-source.git -b 11 kernel_src  #修改内核源码地址和分支名称
           echo "拉取源码完成"
           git clone --depth=1 https://github.com/kdrag0n/proton-clang -b master
           echo "拉取编译器完成"
